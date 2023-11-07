@@ -6,10 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f700ffe1a4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>Countdown</h1>
+    <div class="container">
+        <div class="counter">
+            <div class="counter__wrapper">
+                <div class="counter__circle"></div>
+                <div class="counter__time">
+                    <h1>45</h1>
+                </div>
+                <div class="counter__text">
+                    <p>seconds<br /> left</p>
+                </div>
+            </div>
+            <div class="counter__buttons">
+                <div class="counter__buttons--add">
+                    <span>+</span>
+                    <p>add 10 seconds</p>
+                </div>
+
+                <div class="counter__buttons--start">
+                    <div class="counter__buttons--circle"></div>
+                    <i class="fa-solid fa-play"></i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>

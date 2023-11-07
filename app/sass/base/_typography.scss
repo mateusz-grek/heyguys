@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+h1,
+p {
+	font-family: $font-main;
+	color: $color-white;
+	margin: 0;
+	padding: 0;
+}
+
+span {
+	font-family: $font-main;
+	color: $color-white;
+	line-height: 1;
+}
