@@ -4,6 +4,14 @@
   padding: 0 30px;
 }
 
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -102,13 +110,24 @@ span {
   font-size: 18px;
   font-weight: 500;
 }
-.counter__buttons--start {
+.counter__buttons--controls {
   position: relative;
+}
+.counter__buttons--start {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .counter__buttons--start i {
+  font-size: 30px;
+  color: #fff;
+}
+.counter__buttons--stop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter__buttons--stop i {
   font-size: 30px;
   color: #fff;
 }

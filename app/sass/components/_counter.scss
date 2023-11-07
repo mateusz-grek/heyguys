@@ -67,8 +67,22 @@
 			}
 		}
 
-		&--start {
+		&--controls {
 			position: relative;
+		}
+
+		&--start {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			i {
+				font-size: 30px;
+				color: $color-white;
+			}
+		}
+
+		&--stop {
 			display: flex;
 			align-items: center;
 			justify-content: center;
