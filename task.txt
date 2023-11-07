@@ -9,6 +9,7 @@
     Layout: Figma
     URL: 
     
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
 
     Requirements:
