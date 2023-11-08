@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1;
+	background-color: $color-black;
+	height: 100%;
+}

@@ -1,0 +1,28 @@
+Zadanie JS/HTML/CSS
+
+    Task: Create a Simple Countdown Timer
+
+    Your task is to create a simple countdown timer that counts down from a specified number of seconds - in this case 10 seconds
+    but should be able to set different. The timer should display the remaining time on a webpage and update it every second.
+
+    Layout: Figma
+    URL:
+
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+
+    Requirements:
+
+    Create an HTML file with a <div> element to display the remaining time, and a button to start the timer.
+
+    Create a JavaScript script that does the following:
+    - When the button is clicked, initiate a countdown timer for 10 seconds using setTimeout.
+    - Update the timer every second using setInterval.
+    - Display the remaining time in the <div> element, and update it every second.
+    - When the timer reaches 0, display a message indicating that the countdown has finished.
+    - Provide a way to stop the timer before it reaches 0, for example, by clicking a "Stop" button.
+    - Provide a way to increase (by another 10 seconds once its clicked) the timer, for example, by clicking a "Increase" button  (not longer than 60 seconds in total).
+    - Style the webpage with CSS to make it visually appealing.
+
+    Bonus:
+    - If time is reached - AJAX request to i.e specific file .json/.xml/.txt to get hidden content

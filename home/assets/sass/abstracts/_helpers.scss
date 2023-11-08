@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.hide {
+	display: none;
+}
+
+button {
+	all: unset;
+	font-family: $font-main;
+	color: $color-white;
+	border: 3px solid $color-white;
+}

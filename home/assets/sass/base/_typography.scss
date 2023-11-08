@@ -1,0 +1,17 @@
+@use '../abstracts/' as *;
+
+h1,
+h2,
+p {
+	font-family: $font-main;
+	color: $color-white;
+	margin: 0;
+}
+
+h1 {
+	font-weight: $font-weight-500;
+}
+
+p {
+	font-weight: $font-weight-400;
+}

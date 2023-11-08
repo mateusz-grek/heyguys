@@ -1,0 +1,9 @@
+{
+	"discount": {
+		"title": "Congratulations!",
+		"message": "Your discount code is available",
+		"code": "GXYDSNDGG",
+		"status": "valid",
+		"warning": "Sorry, we don't have any discount codes right now."
+	}
+}
